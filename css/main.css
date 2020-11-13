@@ -1,123 +1,127 @@
 :root {
+  /*background-color*/
+  --prymary-bg-color: #ffffff;
+  --worck-bg-color: #e5e5e5;
+  --btn-bg-color: #2196f3;
+  --darck-grey-color: #2f303a;
+  --team-bg-color: #f5f4fa;
 
-	/*background-color*/
-	--prymary-bg-color: #ffffff;
-	--worck-bg-color: #E5E5E5;
-	--btn-bg-color: #2196F3;
-	--darck-grey-color: #2F303A;
-	--team-bg-color: #F5F4FA;
-
-
-	/*text-color*/
-	--prymari-txt-color: #757575;
-	--title-txt-color: #212121;
-	--acent-txt-color: #2196F3;
-	--white-txt-color: #FFFFFF;
-
-	
+  /*text-color*/
+  --prymari-txt-color: #757575;
+  --title-txt-color: #212121;
+  --acent-txt-color: #2196f3;
+  --white-txt-color: #ffffff;
 }
 
 body {
-	background-color: var(--prymary-bg-color);
-	color: var(--prymari-txt-color);
+  background-color: var(--prymary-bg-color);
+  color: var(--prymari-txt-color);
 
-	font-family: Roboto, sans-serif;
-	line-height: 1.2;
-	letter-spacing: 0.03em;
-	
+  font-family: Roboto, sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .list {
-	list-style: none;
+  list-style: none;
 }
 
 .link {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 /*LOGO*/
 
 .logo {
-	color: var(--acent-txt-color);
-	
-	font-family: Raleway;
-	font-weight: 700;
-	font-size: 26px;
-}
+  color: var(--acent-txt-color);
 
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+}
 
 .logo-style {
-	color: var(--title-txt-color);
+  color: var(--title-txt-color);
 }
-
 
 /*nav header*/
 .site-nav .link {
-	color: var(--title-txt-color);
+  color: var(--title-txt-color);
 
-	font-family: Roboto;
-	font-weight: 500;
-	font-size: 14px;
-	letter-spacing: 0.02em;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-	color: var(--acent-txt-color);
+  color: var(--acent-txt-color);
 }
 
 .nav-contact .link {
-	color: var(--prymari-txt-color);
+  color: var(--prymari-txt-color);
 }
 
 /*caption-title*/
 .caption-title {
-	color: var(--white-txt-color);
-	background: var(--darck-grey-color);
+  color: var(--white-txt-color);
+  /* background: var(--darck-grey-color); */
+  text-shadow: 2px 2px 20px #000000;
 
-	
-	font-weight: 700;
-	font-size: 44px;
-	line-height: 1.4;
-/* or 136% */
-
-	text-align: center;
-	letter-spacing: 0.06em;
-	text-transform: uppercase;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.4;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /*button*/
 .button {
-	background: var(--btn-bg-color);
-	color: var(--white-txt-color);
+  background: var(--btn-bg-color);
+  color: var(--white-txt-color);
 
-	
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.8;
-/* identical to box height, or 187% */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.8;
+  /* identical to box height, or 187% */
 
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.06em;
-
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /*main section title*/
 .section-title {
-	color: var(--title-txt-color);
+  color: var(--title-txt-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
 }
 
 /*subtitle-title*/
-.subtitle-title .title{
-	color: var(--title-txt-color);
+.subtitle-title .title {
+  color: var(--title-txt-color);
 
-
-	font-weight: 700;
-	font-size: 14px;
-	text-transform: uppercase;
-
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
+.employees .title {
+  font-weight: 500;
+  font-size: 16px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: capitalize;
+}
 
-
+.profeshion {
+  font-weight: 400;
+  font-size: 16px;
+  /* identical to box height */
+  text-align: center;
+}
