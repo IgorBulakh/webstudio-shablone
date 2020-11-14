@@ -26,7 +26,18 @@
 .site-nav .link:focus {
   color: var(--acent-txt-color);
 }
+/* curent page */
 
+.site-nav .link.curent {
+  color: var(--acent-txt-color);
+}
+
+/* test */
+/* .site-nav .curent {
+  color: var(--acent-txt-color);
+} */
+
+/* contact */
 .nav-contact .link {
   color: var(--prymari-txt-color);
 }

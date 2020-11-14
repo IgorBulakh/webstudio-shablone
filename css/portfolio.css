@@ -1,3 +1,9 @@
+/* curent page */
+
+.site-nav .link.curent {
+  color: var(--acent-txt-color);
+}
+
 /* porfolio page button galery main*/
 
 .site-nav .galery {
