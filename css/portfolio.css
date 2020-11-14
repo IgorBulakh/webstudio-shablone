@@ -1,0 +1,31 @@
+/* porfolio page button galery main*/
+
+.site-nav .galery {
+  background-color: var(--worck-bg-color);
+  color: var(--title-txt-color);
+}
+
+.site-nav .galery:hover,
+.site-nav .galery:focus {
+  background-color: var(--btn-bg-color);
+  color: var(--white-txt-color);
+}
+
+.galery-list .title {
+  /* color: var(--title-txt-color); */
+  text-transform: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+}
+
+.galery-list .txt,
+.galery-list p {
+  color: var(--prymari-txt-color);
+
+  font-size: 16px;
+  line-height: 1.8;
+  /* identical to box height, or 187% */
+}

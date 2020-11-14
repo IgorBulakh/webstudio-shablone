@@ -1,0 +1,31 @@
+:root {
+  /*background-color*/
+  --prymary-bg-color: #ffffff;
+  --worck-bg-color: #e5e5e5;
+  --btn-bg-color: #2196f3;
+  --darck-grey-color: #2f303a;
+  --team-bg-color: #f5f4fa;
+
+  /*text-color*/
+  --prymari-txt-color: #757575;
+  --title-txt-color: #212121;
+  --acent-txt-color: #2196f3;
+  --white-txt-color: #ffffff;
+}
+
+body {
+  background-color: var(--prymary-bg-color);
+  color: var(--prymari-txt-color);
+
+  font-family: Roboto, sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
