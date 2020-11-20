@@ -7,6 +7,9 @@
 /* porfolio page button galery main*/
 
 .site-nav .galery {
+  border-radius: 4px;
+  padding: 6px 22px;
+
   background-color: var(--worck-bg-color);
   color: var(--title-txt-color);
 }
@@ -15,6 +18,9 @@
 .site-nav .galery:focus {
   background-color: var(--btn-bg-color);
   color: var(--white-txt-color);
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .galery-list .title {

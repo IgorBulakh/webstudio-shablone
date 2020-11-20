@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.css">
 <link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/main.css">
 	<title>Document</title>
@@ -14,7 +15,9 @@
 
 
 <!-- header -->
-<header>
+<header class="page-header">
+
+	<div class="container">
 	<nav>
 		
 		<a href="" lang="en" class="logo link">
@@ -34,6 +37,8 @@
 			</li>
 		</ul>
 
+		</nav>
+
 		<ul class="site-nav nav-contact list">
 			<li>
 				<a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
@@ -42,106 +47,115 @@
 				<a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
 			</li>
 		</ul>
-	</nav>
+		</div>
+	
 </header>
 <!-- header -->
 <!-- main -->
-<main>
+<main class="main-sections">
 
 	<section class="caption">
-		<h1 class="caption-title">Эффективные решения<br> для вашего бизнеса</h1>
+		<div class="container">
+			<h1 class="caption-title">Эффективные решения<br> для вашего бизнеса</h1>
 
-		<a href="" class="link button">Заказать услугу</a>
+			<a href="" class="link button">Заказать услугу</a>
+		</div>
 	</section>
 
 	<section class="section">
-
+		<div class="container">
 			<!-- скрить -->
-		<h2>структура роботи</h2>  
+			<h2 class="spirit-title">структура роботи</h2>  
 		
-		<ul class="subtitle-title list">
-			<li>
-				<h3 class="title">Внимание к деталям</h3>
-				<p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-			</li>
-			<li>
-				<h3 class="title">Пунктуальность</h3>
-				<p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-			</li>
-			<li>
-				<h3 class="title">Планирование</h3>
-				<p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-			</li>
-			<li>
-				<h3 class="title">Современные технологии</h3>
-				<p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-			</li>
-		</ul>
-	</section>
-
-	<section class="section">
-
-		<h2 class="section-title">Чем мы занимаемся</h2>
-
-		<ul class="list">
-			<li>
-				<img src="img/img.png" alt="робота на клавиатуре" width="370">
-			</li>
-			<li>
-				<img src="img/img1.png" alt="ноутбук" width="370">
-			</li>
-			<li>
-				<img src="img/img2.png" alt="палитра на планшете" width="370">
-			</li>
-		</ul>
-
-	</section>
-	<section class="section">
-
-		<h2 class="section-title">Наша команда</h2>
-
-		<ul class="subtitle-title employees list">
-			<li>
-				<img src="img/img.jpg" alt="сотрудник" width="270">
-				<h3 class="title">игорь демьяненко</h3>
-				<p class="profeshion">Product Designer</p>
-			</li>
-			<li>
-				<img src="img/img1.jpg" alt="сотрудник" width="270">
-				<h3 class="title">ольга зепина</h3>
-				<p class="profeshion">Frontend Developer</p>
-			</li>
-			<li>
-				<img src="img/img2.jpg" alt="сотрудник" width="270">
-				<h3 class="title">риколай тарасов</h3>
-				<p class="profeshion">Marketing</p>
+			<ul class="subtitle-title list">
+				<li>
+					<h3 class="title">Внимание к деталям</h3>
+					<p class="section-txt">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
 				</li>
-			<li>
-				<img src="img/img3.jpg" alt="сотрудник" 		width="270">
-				<h3 class="title">михаил ермаков</h3>
-				<p class="profeshion">UI Designer</p>
-			</li>
-		</ul>
+				<li>
+					<h3 class="title">Пунктуальность</h3>
+					<p class="section-txt">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+				</li>
+				<li>
+					<h3 class="title">Планирование</h3>
+					<p class="section-txt">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+				</li>
+				<li>
+					<h3 class="title">Современные технологии</h3>
+					<p class="section-txt">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+				</li>
+			</ul>
+		</div>
+
+		<div class="container">
+
+			<h2 class="section-title projekts-title">Чем мы занимаемся</h2>
+
+			<ul class="list">
+				<li>
+					<img src="img/img.png" alt="робота на клавиатуре" width="370">
+				</li>
+				<li>
+					<img src="img/img1.png" alt="ноутбук" width="370">
+				</li>
+				<li>
+					<img src="img/img2.png" alt="палитра на планшете" width="370">
+				</li>
+			</ul>
+		</div>
 	</section>
+	<section class="team-section section">
+		<div class="container">
+
+			<h2 class="section-title">Наша команда</h2>
+
+			<ul class="subtitle-title employees list">
+				<li>
+					<img src="img/img.jpg" alt="сотрудник" width="270">
+					<h3 class="title">игорь демьяненко</h3>
+					<p class="profeshion">Product Designer</p>
+				</li>
+				<li>
+					<img src="img/img1.jpg" alt="сотрудник" width="270">
+					<h3 class="title">ольга зепина</h3>
+					<p class="profeshion">Frontend Developer</p>
+				</li>
+				<li>
+					<img src="img/img2.jpg" alt="сотрудник" width="270">
+					<h3 class="title">риколай тарасов</h3>
+					<p class="profeshion">Marketing</p>
+					</li>
+				<li>
+					<img src="img/img3.jpg" alt="сотрудник" 		width="270">
+					<h3 class="title">михаил ермаков</h3>
+					<p class="profeshion">UI Designer</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+	
 </main>
 <!-- main -->
 <!-- footer -->
-<footer>
-	
-	<a href="" lang="en" class="logo link">
+<footer class="page-footer">
+
+	<div class="container">
+
+		<a href="" lang="en" class="logo link footer-logo">
 		Web<span class="logo-style">Studio</span> 
-	</a>
+		</a>
 
-	<ul class=" list">
-		<li><address class="adress">
+		<ul class=" list">
+			<li><address class="adress">
 			г. Киев, пр-т Леси Украинки, 26
-		</address></li>
-		<li><address class="nav-contact info-contact">
-			<a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a> <br>
-			<a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-		</address></li>
-	</ul>
+			</address></li>
+			<li><address class="nav-contact info-contact">
+				<a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a> <br>
+				<a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+			</address></li>
+		</ul>
 
+	</div>
 
 </footer>
 <!-- footer -->

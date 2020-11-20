@@ -8,6 +8,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/portfolio.css">
@@ -16,10 +17,11 @@
 
 <body>
 
-
-
   <!-- header -->
-  <header>
+
+<header class="page-header">
+
+  <div class="container">
     <nav>
 
       <a href="" lang="en" class="logo link">
@@ -29,7 +31,7 @@
 
       <ul class="site-nav list">
         <li>
-          <a href="./index.html" class="link">Студия</a>
+          <a href="./index.html" class="link ">Студия</a>
         </li>
         <li>
           <a href="" class="link curent">Портфолио</a>
@@ -39,21 +41,27 @@
         </li>
       </ul>
 
-      <ul class="site-nav nav-contact list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-        </li>
-      </ul>
     </nav>
-  </header>
+
+    <ul class="site-nav nav-contact list">
+      <li>
+        <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+      </li>
+      <li>
+        <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+      </li>
+    </ul>
+  </div>
+
+</header>
   <!-- header -->
+
   <!-- main -->
   <main>
-    <h1>нашы роботи</h1>
-    <section class="caption">
+   
+    <section class="caption section">
+      <div class="container">
+        <h1 class="spirit-title">нашы роботи</h1>
 <!-- button-galery -->
       <ul class="site-nav list">
         <li>
@@ -78,63 +86,63 @@
           <a href="" class="link">
             <img src="./img/teh.jpg" alt="ноутбук" width="370">
             <h2 class="title">Технокряк</h2>
-            <p class="txt">Веб-сайт</p>
+            <p class="section-txt">Веб-сайт</p>
             <!-- hover -->
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, atque!</p>
+            <p class="section-txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, atque!</p>
           </a>
         </li>
         <li>
           <a href="" class="link">
             <img src="./img/bol.jpg" alt="баскетболист" width="370">
             <h2 class="title">Постер New Orlean vs Golden Star</h2>
-            <p class="txt">Дизайн</p>
+            <p class="section-txt">Дизайн</p>
             <!-- hover -->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, consequuntur.</p>
+            <p class="section-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, consequuntur.</p>
           </a>
         </li>
         <li>
           <a href="" class="link">
             <img src="./img/fish.jpg" alt="логотип" width="370">
             <h2 class="title">Ресторан Seafood</h2>
-            <p class="txt">Приложение</p>
+            <p class="section-txt">Приложение</p>
             <!-- hover -->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sapiente!</p>
+            <p class="section-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sapiente!</p>
           </a>
         </li>
         <li>
           <a href="" class="link">
             <img src="./img/headph.jpg" alt="наушники" width="370">
             <h2 class="title">Проект Prime</h2>
-            <p class="txt">Маркетинг</p>
+            <p class="section-txt">Маркетинг</p>
             <!-- hover -->
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, alias?</p>
+            <p class="section-txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, alias?</p>
           </a>
         </li>
         <li>
           <a href="" class="link">
             <img src="./img/box.jpg" alt="коробочки" width="370">
             <h2 class="title">Проект Boxes</h2>
-            <p class="txt">Приложение</p>
+            <p class="section-txt">Приложение</p>
             <!-- hover -->
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, natus.</p>
+            <p class="section-txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, natus.</p>
           </a>
         </li>
         <li>
           <a href="" class="link">
             <img src="./img/desk.jpg" alt="монитор" width="370">
             <h2 class="title">Inspiration has no Borders</h2>
-            <p class="txt">Веб-сайт</p>
+            <p class="section-txt">Веб-сайт</p>
             <!-- hover -->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis.</p>
+            <p class="section-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis.</p>
           </a>
         </li>
         <li>
           <a href="" class="link">
             <img src="./img/book.jpg" alt="книга" width="370">
             <h2 class="title">Издание Limited Edition</h2>
-            <p class="txt">Дизайн</p>
+            <p class="section-txt">Дизайн</p>
             <!-- hover -->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, incidunt!</p>
+            <p class="section-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, incidunt!</p>
           </a>
           
         </li>
@@ -142,47 +150,50 @@
          <a href="" class="link">
             <img src="./img/lebel.jpg" alt="бирка" width="370">
             <h2 class="title">Проект LAB</h2>
-            <p class="txt">Маркетинг</p>
+            <p class="section-txt">Маркетинг</p>
             <!-- hover -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, unde?</p>
+            <p class="section-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, unde?</p>
           </a>
         </li>
         <li>
           <a href="" class="link">
             <img src="./img/note.jpg" alt="ноутбук" width="370">
             <h2 class="title">Growing Business</h2>
-            <p class="txt">Приложение</p>
+            <p class="section-txt">Приложение</p>
             <!-- hover -->
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, nemo?</p>
+            <p class="section-txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, nemo?</p>
           </a>
         </li>
       </ul>
 <!-- hover -->
     </section>
-
+    </div>
   </main>
   <!-- main -->
   <!-- footer -->
-  <footer>
+  <footer class="page-footer">
   
-    <a href="" lang="en" class="logo link">
-      Web<span class="logo-style">Studio</span>
-    </a>
+    <div class="container">
   
-    <ul class=" list">
-      <li>
-        <address class="adress">
-          г. Киев, пр-т Леси Украинки, 26
-        </address>
-      </li>
-      <li>
-        <address class="nav-contact info-contact">
-          <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a> <br>
-          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-        </address>
-      </li>
-    </ul>
+      <a href="" lang="en" class="logo link footer-logo">
+        Web<span class="logo-style">Studio</span>
+      </a>
   
+      <ul class=" list">
+        <li>
+          <address class="adress">
+            г. Киев, пр-т Леси Украинки, 26
+          </address>
+        </li>
+        <li>
+          <address class="nav-contact info-contact">
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a> <br>
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          </address>
+        </li>
+      </ul>
+  
+    </div>
   
   </footer>
   <!-- footer -->

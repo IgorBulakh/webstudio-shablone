@@ -38,12 +38,20 @@
 } */
 
 /* contact */
+.nav-contact.list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .nav-contact .link {
   color: var(--prymari-txt-color);
 }
 
+/* caption */
+
 /*caption-title*/
 .caption-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: var(--white-txt-color);
   /* background: var(--darck-grey-color); */
   text-shadow: 2px 2px 20px #000000;
@@ -59,6 +67,11 @@
 
 /*button*/
 .button {
+  display: inline-block;
+  border-radius: 4px;
+  /* min-width: 200px; */
+  padding: 10px 32px;
+
   background: var(--btn-bg-color);
   color: var(--white-txt-color);
 
@@ -67,10 +80,13 @@
   line-height: 1.8;
   /* identical to box height, or 187% */
   letter-spacing: 0.06em;
+  text-align: center;
 }
 
 /*main section title*/
 .section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   color: var(--title-txt-color);
 
   font-weight: 700;
@@ -79,13 +95,39 @@
 }
 
 /*subtitle-title*/
+
 .subtitle-title .title {
+  margin-top: 0;
+  margin-bottom: 10px;
   color: var(--title-txt-color);
 
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
 }
+
+/* text-section */
+.subtitle-title .section-txt {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* main-sections-bakgraund-color */
+
+/* .main-sections .section {
+  background: var(--worck-bg-color);
+} */
+.main-sections .section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: var(--prymary-bg-color);
+}
+
+.main-sections .section:nth-child(odd) {
+  background: var(--team-bg-color);
+}
+
+/* projekts-section */
 
 .employees .title {
   font-weight: 500;
@@ -96,6 +138,8 @@
 }
 
 .profeshion {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 16px;
   /* identical to box height */
@@ -103,6 +147,10 @@
 }
 
 /* footer */
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
 
 .adress {
   color: var(--white-txt-color);
