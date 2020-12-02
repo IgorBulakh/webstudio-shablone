@@ -54,6 +54,10 @@
   margin-bottom: 30px;
 }
 
+/* .portfoli .description {
+  margin-bottom: 0;
+} */
+
 .description .description-galery:nth-child(3n) {
   margin-right: 0;
 }
@@ -62,7 +66,7 @@
   margin-bottom: 0;
 }
 
-.galery-list .title {
+.description-galery .title {
   /* color: var(--title-txt-color); */
   text-transform: none;
   font-weight: 700;
@@ -72,11 +76,21 @@
   letter-spacing: 0.06em;
 }
 
-.galery-list .txt,
-.galery-list p {
+.description-galery .section-txt {
   color: var(--prymari-txt-color);
 
   font-size: 16px;
   line-height: 1.8;
+
   /* identical to box height, or 187% */
+}
+
+.portfoli {
+  background: yellowgreen;
+}
+.description {
+  outline: 2px solid seagreen;
+}
+.description-galery {
+  outline: 2px solid rebeccapurple;
 }

@@ -137,10 +137,12 @@
 
 /*description-block*/
 .description {
-  margin-bottom: 94px;
   display: flex;
   /* justify-content: space-between; */
   flex-wrap: wrap;
+}
+.container-description .description {
+  padding-bottom: 94px;
 }
 
 .description-list {
@@ -196,9 +198,9 @@
 
 /* teams-section */
 
-.team-section .description.list {
+/* .team-section .description.list {
   margin-bottom: 0;
-}
+} */
 
 .team-section .description .title {
   font-weight: 500;
