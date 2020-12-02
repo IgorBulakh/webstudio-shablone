@@ -76,6 +76,10 @@
   letter-spacing: 0.06em;
 }
 
+.description-galery .link {
+  display: block;
+}
+
 .description-galery .section-txt {
   color: var(--prymari-txt-color);
 
