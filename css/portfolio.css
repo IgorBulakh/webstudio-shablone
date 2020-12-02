@@ -66,6 +66,22 @@
   margin-bottom: 0;
 }
 
+/* cart-contant-galery */
+.cart-img {
+  display: block;
+  margin-bottom: 0;
+}
+.cart-contant {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* overflow: hidden; */
+}
+
 .description-galery .title {
   /* color: var(--title-txt-color); */
   text-transform: none;
@@ -90,11 +106,11 @@
 }
 
 .portfoli {
-  background: yellowgreen;
+  /* background: yellowgreen; */
 }
 .description {
-  outline: 2px solid seagreen;
+  /* outline: 2px solid seagreen; */
 }
 .description-galery {
-  outline: 2px solid rebeccapurple;
+  /* outline: 2px solid rebeccapurple; */
 }
