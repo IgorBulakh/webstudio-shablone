@@ -83,6 +83,24 @@
 /* caption */
 
 .main-sections .caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(
+      to right,
+      /* var(--darck-grey-color),
+      var(--worck-bg-color) */
+        rgba(47, 48, 58, 0.6),
+      rgba(196, 196, 196, 0.6)
+    ),
+    url('../img/caption.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+
   text-align: center;
 }
 
