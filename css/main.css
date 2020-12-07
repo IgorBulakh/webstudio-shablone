@@ -248,6 +248,14 @@ img {
 }
 
 /* footer */
+.page-footer .container {
+  display: flex;
+  align-items: baseline;
+}
+.adress-footer {
+  margin-right: 70px;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
@@ -272,3 +280,14 @@ img {
 }
 
 /* subtitle-title */
+
+/* sochial-link-footer-flex */
+.link-footer {
+  flex-direction: column;
+}
+
+.link-footer .title {
+  margin-bottom: 20px;
+
+  color: var(--white-txt-color);
+}
