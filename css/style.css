@@ -11,6 +11,9 @@
   --title-txt-color: #212121;
   --acent-txt-color: #2196f3;
   --white-txt-color: #ffffff;
+
+  /* border-color-links-color-svg */
+  --link-grey-color: #afb1b8;
 }
 
 body {
@@ -47,6 +50,10 @@ body {
 .link {
   text-decoration: none;
 }
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .container {
   margin-left: auto;
@@ -61,6 +68,7 @@ body {
 
 /* main-sections */
 .section {
+  /* width: 100%; */
 }
 
 /* spirit-title */

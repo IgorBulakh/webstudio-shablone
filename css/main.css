@@ -166,6 +166,7 @@
 .description-list {
   width: 270px;
   margin-right: 30px;
+  padding-bottom: 24px;
 }
 
 .description-list:last-child {
@@ -233,18 +234,40 @@
   text-align: center;
   text-transform: capitalize;
 }
-.description-list .profeshion,
-img {
+.description-list .portret {
   margin-bottom: 30px;
 }
 
 .profeshion {
   margin-top: 0;
-  margin-bottom: 0;
+  /* margin-bottom: 16px; */
   font-weight: 400;
   font-size: 16px;
   /* identical to box height */
   text-align: center;
+}
+
+.team-section .site-nav {
+  justify-content: center;
+}
+
+/* clients-section */
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-list .clients-link {
+  width: 170px;
+  height: 90px;
+
+  border: 1px solid var(--link-grey-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.clients-link:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* footer */
@@ -279,7 +302,8 @@ img {
   /* or 171% */
 }
 
-/* subtitle-title */
+/* subtitle-
+ */
 
 /* sochial-link-footer-flex */
 .link-footer {
@@ -290,4 +314,14 @@ img {
   margin-bottom: 20px;
 
   color: var(--white-txt-color);
+}
+
+.social-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link,
+.link-footer,
+.link-footer > .title {
+  outline: 2px solid rgb(250, 4, 4);
 }
