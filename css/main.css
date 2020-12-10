@@ -80,6 +80,28 @@
   margin-right: 0;
 }
 
+/* icon-contact-before */
+.contact-list .link::before {
+  content: '';
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.mail-icon::before {
+  display: block;
+  background-image: url(../img/mail.svg);
+  color: var(--prymari-txt-color);
+}
+.phone-icon::before {
+  background-image: url(../img/tel.svg);
+}
+
 /* caption */
 
 .main-sections .caption {
