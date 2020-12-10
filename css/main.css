@@ -92,10 +92,10 @@
   margin-left: auto;
   background-image: linear-gradient(
       to right,
-      /* var(--darck-grey-color),
-      var(--worck-bg-color) */
-        rgba(47, 48, 58, 0.6),
-      rgba(196, 196, 196, 0.6)
+      var(--caption-bg-color),
+      var(--caption-bg-color)
+        /* rgba(47, 48, 58, 0.6),
+      rgba(196, 196, 196, 0.6) */
     ),
     url('../img/caption.jpg');
   background-repeat: no-repeat;
@@ -181,6 +181,32 @@
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
+}
+/* icon-list-before-container-description  */
+.container-description .description-list::before {
+  content: '';
+
+  display: block;
+  height: 120px;
+  margin-bottom: 30px;
+  background: var(--team-bg-color);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-radius: 4px;
+}
+
+.container-description .description-list:nth-child(1)::before {
+  background-image: url(../img/antenna\ 1.svg);
+}
+.container-description .description-list:nth-child(2)::before {
+  background-image: url(../img/clock\ 1.svg);
+}
+.container-description .description-list:nth-child(3)::before {
+  background-image: url(../img/diagram\ 1.svg);
+}
+.container-description .description-list:nth-child(4)::before {
+  background-image: url(../img/astronaut\ 1.svg);
 }
 
 /* text-section */
@@ -320,6 +346,36 @@
   margin-right: 10px;
 }
 
+/* footer-sochial-links */
+
+.icon-link ::before {
+  content: '';
+
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background: var(--sochial-link-footer);
+
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-radius: 50%;
+}
+.instagram-link::before {
+  background-image: url(../img/instagram\ 2.svg);
+}
+.twitter-link::before {
+  background-image: url(../img/twitter\ 1.svg);
+}
+
+.facebook-link::before {
+  background-image: url(../img/facebook\ 1.svg);
+}
+.linkedin-link::before {
+  background-image: url(../img/linkedin\ 1.svg);
+}
+
+/* OUTLINE-TIMEOUT-SOCHIAL-SETING */
 .social-link,
 .link-footer,
 .link-footer > .title {
