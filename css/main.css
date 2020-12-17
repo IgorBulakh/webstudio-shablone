@@ -298,6 +298,31 @@
 .team-section .site-nav {
   justify-content: center;
 }
+/* svg-icon-social-section-items */
+.social-link .link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: transparent;
+  border-radius: 50%;
+}
+.social-link .link:hover {
+  background: var(--btn-bg-color);
+}
+
+.link-icon {
+  display: block;
+
+  width: 15px;
+  height: 15px;
+
+  fill: var(--prymari-txt-color);
+}
+.social-link .link-icon:hover {
+  fill: var(--white-txt-color);
+}
 
 /* clients-section */
 
@@ -310,6 +335,10 @@
   width: 170px;
   height: 90px;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   border: 1px solid var(--link-grey-color);
   box-sizing: border-box;
   border-radius: 4px;
@@ -318,22 +347,38 @@
   margin-right: 30px;
 }
 
-/* svg-icon-social-section-items */
-/* .link.link-svg {
+/* clients-icon-logo-svg */
+
+.clients-link .link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
-  height: 50px;
-  background: coral;
-  border-radius: 50%;
-} */
+}
 
-.link-icon {
-  display: block;
-  width: 15px;
-  height: 15px;
-  --color1: var(--prymari-txt-color);
+/* size-icons-clients-svg */
+.first-icon {
+  width: 45px;
+  height: 50px;
+}
+.two-icon {
+  width: 40px;
+  height: 52px;
+}
+.three-icon {
+  width: 41px;
+  height: 42px;
+}
+.four-icon {
+  width: 80px;
+  height: 42px;
+}
+.five-icon {
+  width: 59px;
+  height: 47px;
+}
+.sixt-icon {
+  width: 89px;
+  height: 45px;
 }
 
 /* footer */
