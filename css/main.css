@@ -334,7 +334,6 @@
   width: 15px;
   height: 15px;
   --color1: var(--prymari-txt-color);
-  /* background: black; */
 }
 
 /* footer */
@@ -422,5 +421,5 @@
 .social-link,
 .link-footer,
 .link-footer > .title {
-  outline: 2px solid rgb(250, 4, 4);
+  /* outline: 2px solid rgb(250, 4, 4); */
 }
