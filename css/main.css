@@ -243,12 +243,35 @@
   justify-content: space-between;
 }
 .illustration-list {
-  /* margin-right: 30px; */
-}
-.illustration-list:last-child {
-  margin-right: 0;
 }
 
+.tumb-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.illustration-list .tumb {
+  position: relative;
+}
+.tumb .label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  margin: 0;
+  padding-top: 28px;
+  padding-bottom: 28px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--white-txt-color);
+}
 /* main-sections-bakgraund-color */
 
 /* .main-sections .section {
