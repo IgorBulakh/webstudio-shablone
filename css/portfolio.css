@@ -71,6 +71,13 @@
   display: block;
   margin-bottom: 0;
 }
+
+.description-galery .tumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .description-galery .tumb::before {
   display: inline-block;
   position: absolute;
@@ -80,9 +87,28 @@
 
   background: rgba(33, 150, 243, 0.8);
   opacity: 0;
-  outline: 5px solid rebeccapurple;
+  transition: 250ms;
 }
 .description-galery .tumb:hover::before {
+  opacity: 1;
+}
+
+.tumb .section-tumb {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+
+  padding: 64px 30px;
+
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--white-txt-color);
+
+  opacity: 0;
+}
+
+.tumb:hover .section-tumb {
   opacity: 1;
 }
 
@@ -114,10 +140,10 @@
 }
 
 .description-galery .section-txt {
-  color: var(--prymari-txt-color);
-
   font-size: 16px;
   line-height: 1.8;
+
+  color: var(--prymari-txt-color);
 
   /* identical to box height, or 187% */
 }
