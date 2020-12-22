@@ -113,8 +113,12 @@ body {
 
 .modal {
   position: absolute;
+  display: flex;
+  justify-content: flex-end;
+
   min-width: 520px;
   min-height: 580px;
+  padding: 10px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -124,6 +128,24 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+
+.close-modal {
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+  background-image: url(../img/x-mark.svg);
+  background-size: contain;
+  border: none;
+
+  opacity: 0.7;
+}
+
+/* .close-modal .icon {
+  width: 15px;
+  height: 15px;
+} */
+
 /* modal-backdrop */
 /* for-code */
 
