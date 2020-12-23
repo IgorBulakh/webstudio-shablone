@@ -81,6 +81,7 @@
 .description-galery .tumb::before {
   display: inline-block;
   position: absolute;
+
   content: '';
   width: 100%;
   height: 100%;
@@ -88,11 +89,19 @@
   background: rgba(33, 150, 243, 0.8);
   opacity: 0;
   transition: 250ms;
+  
 }
+
+
+
 
 .description-galery .tumb:hover::before {
   opacity: 1;
-}
+
+  }
+
+
+
 
 .tumb .section-tumb {
   position: absolute;
@@ -149,6 +158,29 @@
   /* identical to box height, or 187% */
 }
 
+
+.header-portfolio .link.curent::after{
+  position: absolute;
+  display: block;
+  content: "";
+text-align: center;
+  margin-top: 37px;
+  width: 78px;
+  
+height: 4px;
+
+
+border-radius: 2px;
+  background: var(--acent-txt-color);
+
+
+}
+
+
+
+
+
+
 .portfoli {
   /* background: yellowgreen; */
 }
@@ -158,3 +190,7 @@
 .description-galery {
   /* outline: 2px solid rebeccapurple; */
 }
+
+
+
+

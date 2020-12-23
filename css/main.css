@@ -57,6 +57,21 @@
 .site-nav .link.curent {
   color: var(--acent-txt-color);
 }
+.curent::after{
+  position: absolute;
+  display: block;
+  content: "";
+text-align: center;
+  margin-top: 37px;
+  width: 48px;
+height: 4px;
+
+
+border-radius: 2px;
+  background: var(--acent-txt-color);
+
+
+}
 
 /* test */
 /* .site-nav .curent {
