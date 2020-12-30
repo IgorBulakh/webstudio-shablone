@@ -91,11 +91,12 @@
   background: rgba(33, 150, 243, 0.8);
   opacity: 0;
 
-  transition: 1250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translate(0%, 100%);
+  transition: 1250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.description-galery .tumb:hover::before {
+.description-galery:hover .tumb::before,
+.description-galery :focus .tumb::before {
   opacity: 1;
   transform: translate(0%, 0%);
 }
@@ -116,10 +117,11 @@
 
   opacity: 0;
 
-  transition: 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 1250ms cubic-bezier(0.4, 0, 0.2, 1) 100ms;
 }
 
-.tumb:hover .section-tumb {
+.description-galery:hover .section-tumb,
+.description-galery :focus .section-tumb {
   opacity: 1;
   transform: translate(0%, 0%);
 }
