@@ -122,6 +122,7 @@
   align-items: center;
   min-height: 600px;
   max-width: 1600px;
+
   margin-right: auto;
   margin-left: auto;
   background-image: linear-gradient(
@@ -425,6 +426,7 @@
 
 .page-footer .container {
   display: flex;
+  justify-content: space-between;
   align-items: baseline;
 }
 
@@ -502,9 +504,45 @@
   background-image: url(../img/linkedin\ 1.svg);
 }
 
+/* form-foter */
+
+.form-fild {
+  display: flex;
+}
+.fild-mail {
+  width: 350px;
+  margin-right: 10px;
+  padding: 0 15px;
+
+  background: var(--darck-grey-color);
+  border: 1px solid var(--border-form-footer);
+  border-radius: 4px;
+}
+.form-fild {
+  position: relative;
+}
+.form-fild .button {
+  width: 200px;
+  padding-left: 30px;
+  padding-right: 60px;
+}
+.form-fild .button::after {
+  position: absolute;
+  top: 12px;
+  right: 26px;
+  content: '';
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/btn-icon.svg);
+  background-size: contain;
+}
+
 /* OUTLINE-TIMEOUT-SOCHIAL-SETING */
-.social-link,
-.link-footer,
-.link-footer > .title {
-  /* outline: 2px solid rgb(250, 4, 4); */
+/* .social-link, */
+/* .link-footer, */
+/* .link-footer > .title, */
+/* .input-footer  */
+ {
+  outline: 2px solid rgb(250, 4, 4);
 }

@@ -48,6 +48,7 @@
   margin-bottom: 30px;
 } */
 /* or-two-wariant-calc */
+
 .description .description-galery {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;

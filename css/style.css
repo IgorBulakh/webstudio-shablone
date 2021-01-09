@@ -16,6 +16,7 @@
 
   /* border-color-links-color-svg */
   --link-grey-color: #afb1b8;
+  --border-form-footer: rgba(255, 255, 255, 0.3);
 }
 
 body {
@@ -68,6 +69,8 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 
+  /* width: 100%; */
+  /* max-width: 1200px; */
   width: 1200px;
 
   /* outline: 2px solid #b0c4de; */
