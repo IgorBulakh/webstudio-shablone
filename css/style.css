@@ -117,6 +117,7 @@ body {
   opacity: 0;
   pointer-events: none;
 }
+
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(1.1);
 }
@@ -142,15 +143,129 @@ body {
 }
 
 .close-modal {
+  position: absolute;
+
   width: 30px;
   height: 30px;
 
   background-image: url(../img/x-mark.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: contain;
   border: none;
   cursor: pointer;
 
   opacity: 0.7;
+}
+
+/* form-fild */
+
+.wrap-modal {
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-form {
+  text-align: center;
+  color: var(--title-txt-color);
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 12px;
+}
+
+.list-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.list-form textarea {
+  resize: none;
+  height: 120px;
+}
+
+.input-form {
+  margin-top: 0;
+  margin: 0;
+  /* padding: 10px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.label-form {
+  margin-bottom: 5px;
+}
+
+.modal-form .button {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-form {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  width: 18px;
+  height: 18px;
+  transform: translateY(-20%);
+}
+
+.input-form:focus + .icon-form {
+  fill: blue;
+}
+
+.form-chek {
+  margin-bottom: 30px;
+}
+
+.form-chek label {
+  margin-left: 10px;
+}
+.form-chek a {
+  color: blue;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+}
+.check-label {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+
+.check-icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border: 2px solid var(--darck-grey-color);
+  border-radius: 4px;
+}
+
+.check-label:checked + .check-icon {
+  border-color: var(--btn-bg-color);
+  background-color: var(--btn-bg-color);
+  background-image: url(../img/check.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: border-box;
 }
 
 /* .close-modal .icon {

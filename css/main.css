@@ -528,8 +528,13 @@
 }
 .form-fild .button::after {
   position: absolute;
-  top: 12px;
-  right: 26px;
+
+  /* top: 12px;
+  right: 26px; */
+  top: 0;
+  right: 0;
+  transform: translate(-110%, 50%);
+
   content: '';
   display: inline-flex;
   width: 24px;

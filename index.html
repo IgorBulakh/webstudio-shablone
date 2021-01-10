@@ -411,6 +411,59 @@
     </div>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <div class="wrap-modal">
+          <h3 class="title-form">Оставьте свои данные, мы вам перезвоним</h3>
+          <form action="" class="modal-form">
+            <ul class="list">
+              <li class="list-form">
+                <label for="name" class="label-form">Имя</label>
+                <input type="text" name="name" id="name" class="input-form" />
+                <svg class="icon-form">
+                  <use href="./img/sprite.svg#icon-person"></use>
+                </svg>
+              </li>
+              <li class="list-form">
+                <label for="tel" class="label-form">Телефон</label
+                ><input type="tel" name="tel" id="tel" class="input-form" />
+                <svg class="icon-form">
+                  <use href="./img/sprite.svg#icon-phone"></use>
+                </svg>
+              </li>
+              <li class="list-form">
+                <label for="mail" class="label-form">Почта </label>
+                <input type="email" name="mail" id="mail" class="input-form" />
+                <svg class="icon-form">
+                  <use href="./img/sprite.svg#icon-email"></use>
+                </svg>
+              </li>
+              <li class="list-form">
+                <label for="coment" class="label-form">Комментарий </label>
+                <textarea
+                  name="coments"
+                  id="coment"
+                  placeholder="Введите текст"
+                  class="input-form"
+                ></textarea>
+              </li>
+              <li class="form-chek">
+                <label name="chek" class="check">
+                  <input
+                    class="check-label"
+                    type="checkbox"
+                    id="chek"
+                    name="chek"
+                  />
+                  <span class="check-icon"></span>Соглашаюсь с рассылкой и
+                  принимаю
+                  <a href="">Условия договора</a>
+                </label>
+              </li>
+            </ul>
+
+            <button class="button">Отправить</button>
+          </form>
+        </div>
+
         <button class="close-modal" data-modal-close>
           <!-- <svg class="icon">
             <use href="./img/x-mark.svg"></use>
