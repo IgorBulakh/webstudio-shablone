@@ -94,6 +94,7 @@ body {
 }
 
 .page-footer {
+  display: inline-flex;
   padding-top: 60px;
   padding-bottom: 60px;
   background: var(--darck-grey-color);
