@@ -361,7 +361,8 @@
 
   fill: var(--prymari-txt-color);
 }
-.social-link .link-icon:hover {
+
+.social-link .link:hover .link-icon {
   fill: var(--white-txt-color);
 }
 
