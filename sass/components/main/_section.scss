@@ -1,0 +1,14 @@
+.main {
+  & .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background: var(--prymary-bg-color);
+
+    &:nth-child(odd) {
+      background: $team-bg-color;
+    }
+  }
+}
+
+.main-sections .section {
+}

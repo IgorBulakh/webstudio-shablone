@@ -1,0 +1,48 @@
+.container-clients {
+  @extend %container;
+  & .list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.clients-link {
+  width: 170px;
+  height: 90px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid $link-grey-color;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  & .link {
+    // display: inline-flex;
+    // align-items: center;
+    // justify-content: center;
+  }
+}
+
+.first-icon {
+  @include clientIcon(45px, 50px);
+}
+.two-icon {
+  @include clientIcon(40px, 52px);
+}
+.three-icon {
+  @include clientIcon(41px, 42px);
+}
+.four-icon {
+  @include clientIcon(80px, 42px);
+}
+.five-icon {
+  @include clientIcon(59px, 47px);
+}
+.sixt-icon {
+  @include clientIcon(89px, 45px);
+}

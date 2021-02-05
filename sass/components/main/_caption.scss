@@ -1,0 +1,42 @@
+.caption {
+  @include centerFlex;
+  flex-direction: column;
+  justify-content: center;
+
+  min-height: 600px;
+  max-width: 1600px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: linear-gradient(
+      to right,
+      $caption-bg-color,
+      $caption-bg-color
+        /* rgba(47, 48, 58, 0.6),
+      rgba(196, 196, 196, 0.6) */
+    ),
+    url("../img/caption.jpg");
+  // background-image: url("../img/caption.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  text-align: center;
+}
+
+.caption {
+  & .title {
+    margin-bottom: 30px;
+    color: $white-txt-color;
+
+    text-shadow: 2px 2px 20px #000000;
+
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.4;
+    /* or 136% */
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+}

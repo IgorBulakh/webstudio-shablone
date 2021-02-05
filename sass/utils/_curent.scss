@@ -1,0 +1,11 @@
+%curent {
+  position: absolute;
+  display: block;
+  content: "";
+  text-align: center;
+  margin-top: 37px;
+  height: 4px;
+
+  border-radius: 2px;
+  background: $btn-bg-color;
+}

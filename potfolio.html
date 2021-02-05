@@ -12,19 +12,19 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
     <title>Document</title>
   </head>
 
   <body>
     <!-- header -->
-    <header class="page-header header-portfolio">
-      <div class="container header-nav">
+    <header class="page-header">
+      <div class="header-nav">
         <nav class="menu-block">
           <a href="" lang="en" class="logo link">
-            Web<span class="logo-style">Studio</span>
+            Web<span class="logo-black">Studio</span>
           </a>
 
           <ul class="site-nav list">
@@ -42,12 +42,16 @@
 
         <ul class="site-nav nav-contact list">
           <li class="contact-list">
-            <a href="mailto:info@devstudio.com" class="link mail-icon"
+            <a href="mailto:info@devstudio.com" class="link">
+              <svg class="link-icon">
+                <use href="./img/sprite.svg#icon-mail"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li class="contact-list">
-            <a href="tel:+380961111111" class="link phone-icon"
+            <a href="tel:+380961111111" class="link"
+              ><svg class="link-icon">
+                <use href="./img/sprite.svg#icon-tel"></use></svg
               >+38 096 111 11 11</a
             >
           </li>
@@ -58,31 +62,32 @@
 
     <!-- main -->
     <main class="portfoli">
-      <section class="caption section">
-        <div class="container">
+      <div class="container-portfolio">
+        <section class="section">
           <h1 class="visually-hidden">нашы роботи</h1>
           <!-- button-galery -->
 
           <ul class="site-nav list">
             <li class="button-list">
-              <a href="" class="button galery link">Все</a>
+              <a href="" class="button link">Все</a>
             </li>
             <li class="button-list">
-              <a href="" class="button galery link">Веб-сайты</a>
+              <a href="" class="button link">Веб-сайты</a>
             </li>
             <li class="button-list">
-              <a href="" class="button galery link">Приложения</a>
+              <a href="" class="button link">Приложения</a>
             </li>
             <li class="button-list">
-              <a href="" class="button galery link">Дизайн</a>
+              <a href="" class="button link">Дизайн</a>
             </li>
             <li class="button-list">
-              <a href="" class="button galery link">Маркетинг</a>
+              <a href="" class="button link">Маркетинг</a>
               <!-- maket-for-btn -->
               <!-- <buttnon type="buttnon" class="button galery">Маркетинг</buttnon> -->
             </li>
           </ul>
-
+        </section>
+        <section class="section">
           <ul class="description list">
             <li class="description-galery">
               <a href="" class="link">
@@ -274,16 +279,16 @@
               </a>
             </li>
           </ul>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
     <!-- main -->
     <!-- footer -->
     <footer class="page-footer">
-      <div class="container">
-        <div class="adress-footer">
-          <a href="" lang="en" class="logo link footer-logo">
-            Web<span class="logo-style">Studio</span>
+      <div class="container-footer">
+        <div class="footer-info">
+          <a href="" lang="en" class="logo link">
+            Web<span class="logo-black">Studio</span>
           </a>
 
           <ul class="list">
@@ -327,6 +332,7 @@
         </form>
       </div>
     </footer>
+
     <!-- footer -->
   </body>
 </html>
