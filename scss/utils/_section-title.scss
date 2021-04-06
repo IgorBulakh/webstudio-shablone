@@ -1,0 +1,29 @@
+// title-main-section
+%title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: $title-txt-color;
+
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media screen and (min-width: $mobile) {
+    // text-align: center;
+  }
+}
+// project-section
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: $title-txt-color;
+
+  font-weight: 700;
+
+  text-align: center;
+  @media screen and (min-width: $desctop) {
+    font-size: 36px;
+  }
+}
