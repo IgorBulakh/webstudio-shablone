@@ -1,0 +1,149 @@
+.menu-button {
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+
+  @media screen and(min-width: $tablet) {
+    display: none;
+  }
+}
+
+.menu-button .icon-close {
+  display: none;
+}
+
+.menu-button.is-open .icon-close {
+  display: block;
+}
+
+.menu-button.is-open .icon-menu {
+  display: none;
+}
+
+.link {
+  .contact-list & {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.link-icon {
+  .page-header & {
+    display: none;
+    @media screen and( min-width: $tablet) {
+      display: inline-flex;
+      margin-right: 10px;
+    }
+  }
+  :hover.link &,
+  :focus.link & {
+    fill: $acent-txt-color;
+  }
+}
+
+.menu-burger {
+  @media screen and( max-width: 767px) {
+    display: none;
+    position: absolute;
+    padding: 40px;
+    left: 0;
+    top: 30px;
+    width: 100%;
+    margin-top: 40px;
+
+    z-index: 999;
+    background-color: $prymary-bg-color;
+
+    &.is-open {
+      display: block;
+    }
+
+    .nav-mobile {
+      margin-bottom: 300px;
+      & .link-portal {
+        margin-bottom: 30px;
+      }
+      & .link {
+        font-size: 40px;
+      }
+    }
+    .nav-contact {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-bottom: 60px;
+
+      & .contact-list {
+        margin-bottom: 30px;
+      }
+      & .link {
+        font-size: 34px;
+        color: $acent-txt-color;
+      }
+      & .link-grey {
+        font-size: 24px;
+        color: $prymari-txt-color;
+      }
+    }
+  }
+
+  @media screen and(min-width: $tablet) {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+
+    .nav-mobile {
+      display: flex;
+      text-align: center;
+    }
+
+    .link-portal {
+      margin-left: 50px;
+    }
+    .nav-contact {
+      font-size: 12px;
+
+      & .contact-list:not(:last-child) {
+        margin-bottom: 10px;
+      }
+      & .link {
+        color: $prymari-txt-color;
+      }
+    }
+  }
+  @media screen and(min-width: $desctop) {
+    .nav-contact {
+      display: flex;
+      justify-content: space-around;
+      font-size: 14px;
+      // margin-left: 300px;
+      &.list {
+        & .contact-list {
+          margin-bottom: 0;
+          &:not(:last-child) {
+            margin-right: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.list-social {
+  & .link-container {
+    display: inline;
+    & .link {
+      font-size: 18px;
+      color: $acent-txt-color;
+    }
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+
+  @media screen and(min-width: $tablet) {
+    display: none;
+  }
+}

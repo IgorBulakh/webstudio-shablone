@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.css"
     />
-    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
+
     <link rel="stylesheet" href="./css/main.css" />
     <title>Document</title>
   </head>
@@ -27,35 +27,68 @@
               Web<span class="logo-black">Studio</span>
             </a>
 
-            <ul class="site-nav list">
-              <li class="link-portal">
-                <a href="" class="link curent">Студия</a>
-              </li>
-              <li class="link-portal">
-                <a href="./potfolio.html" class="link">Портфолио</a>
-              </li>
-              <li class="link-portal">
-                <a href="" class="link">Контакти</a>
-              </li>
-            </ul>
-          </nav>
+            <button
+              type="button"
+              class="menu-button is-open"
+              aria-expanded="false"
+              data-menu-button
+            >
+              <svg width="40" height="40" aria-label="burger menu">
+                <use
+                  class="icon-menu"
+                  href="./img/sprite-2.svg#icon-close"
+                ></use>
+                <use
+                  class="icon-close"
+                  href="./img/sprite-2.svg#icon-menu"
+                ></use>
+              </svg>
+            </button>
+            <div class="menu-burger" data-menu>
+              <ul class="site-nav list nav-mobile">
+                <li class="link-portal">
+                  <a href="" class="link curent">Студия</a>
+                </li>
+                <li class="link-portal">
+                  <a href="./potfolio.html" class="link">Портфолио</a>
+                </li>
+                <li class="link-portal">
+                  <a href="" class="link">Контакти</a>
+                </li>
+              </ul>
 
-          <ul class="site-nav nav-contact list">
-            <li class="contact-list">
-              <a href="mailto:info@devstudio.com" class="link">
-                <svg class="link-icon">
-                  <use href="./img/sprite.svg#icon-mail"></use></svg
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="contact-list">
-              <a href="tel:+380961111111" class="link"
-                ><svg class="link-icon">
-                  <use href="./img/sprite.svg#icon-tel"></use></svg
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
+              <ul class="site-nav list nav-contact">
+                <li class="contact-list">
+                  <a href="mailto:info@devstudio.com" class="link link-grey">
+                    <svg class="link-icon">
+                      <use href="./img/sprite.svg#icon-mail"></use></svg
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="contact-list">
+                  <a href="tel:+380961111111" class="link"
+                    ><svg class="link-icon">
+                      <use href="./img/sprite.svg#icon-tel"></use></svg
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+              <ul class="list site-nav list-social">
+                <li class="link-container">
+                  <a href="" class="link">instagram</a>
+                </li>
+                <li class="link-container">
+                  <a href="" class="link">twitter</a>
+                </li>
+                <li class="link-container">
+                  <a href="" class="link">fasebook</a>
+                </li>
+                <li class="link-container">
+                  <a href="" class="link">linkedin</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
       </header>
       <!-- header -->
@@ -76,28 +109,28 @@
             <h2 class="visually-hidden">структура роботи</h2>
             <ul class="description list">
               <li class="description-list">
-                <h3 class="title">Внимание к деталям</h3>
+                <h3 class="title perfect">Внимание к деталям</h3>
                 <p class="section-txt">
                   Идейные соображения, а также начало повседневной работы по
                   формированию позиции.
                 </p>
               </li>
               <li class="description-list">
-                <h3 class="title">Пунктуальность</h3>
+                <h3 class="title perfect">Пунктуальность</h3>
                 <p class="section-txt">
                   Задача организации, в особенности же рамки и место обучения
                   кадров влечет за собой.
                 </p>
               </li>
               <li class="description-list">
-                <h3 class="title">Планирование</h3>
+                <h3 class="title perfect">Планирование</h3>
                 <p class="section-txt">
                   Равным образом консультация с широким активом в значительной
                   степени обуславливает.
                 </p>
               </li>
               <li class="description-list">
-                <h3 class="title">Современные технологии</h3>
+                <h3 class="title perfect">Современные технологии</h3>
                 <p class="section-txt">
                   Значимость этих проблем настолько очевидна, что реализация
                   плановых заданий.
@@ -146,6 +179,9 @@
             </ul>
           </div>
         </section>
+
+        <!-- team-section -->
+
         <section class="section">
           <div class="container-team">
             <h2 class="section-title">Наша команда</h2>
@@ -363,44 +399,48 @@
       <!-- footer -->
       <footer class="page-footer">
         <div class="container-footer">
-          <div class="footer-info">
-            <a href="" lang="en" class="logo link">
-              Web<span class="logo-black">Studio</span>
-            </a>
+          <div class="block-info">
+            <div class="footer-info">
+              <a href="" lang="en" class="logo link">
+                Web<span class="logo-black">Studio</span>
+              </a>
 
-            <ul class="list">
-              <li>
-                <address class="adress">
-                  г. Киев, пр-т Леси Украинки, 26
-                </address>
-              </li>
-              <li>
-                <address class="nav-contact info-contact">
-                  <a href="mailto:info@devstudio.com" class="link"
-                    >info@devstudio.com</a
-                  >
-                  <br />
-                  <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-                </address>
-              </li>
-            </ul>
-          </div>
-          <div class="link-footer description">
-            <h3 class="title">присоединяйтесь</h3>
-            <ul class="site-nav list">
-              <li class="social-link icon-link">
-                <a class="link instagram-link" href=""></a>
-              </li>
-              <li class="social-link icon-link">
-                <a class="link twitter-link" href=""></a>
-              </li>
-              <li class="social-link icon-link">
-                <a class="link facebook-link" href=""></a>
-              </li>
-              <li class="social-link icon-link">
-                <a class="link linkedin-link" href=""></a>
-              </li>
-            </ul>
+              <ul class="list">
+                <li>
+                  <address class="adress">
+                    г. Киев, пр-т Леси Украинки, 26
+                  </address>
+                </li>
+                <li>
+                  <address class="info-contact">
+                    <a href="mailto:info@devstudio.com" class="link"
+                      >info@devstudio.com</a
+                    >
+                    <br />
+                    <a href="tel:+380961111111" class="link"
+                      >+38 096 111 11 11</a
+                    >
+                  </address>
+                </li>
+              </ul>
+            </div>
+            <div class="link-footer description">
+              <h3 class="title">присоединяйтесь</h3>
+              <ul class="site-nav list">
+                <li class="social-link icon-link">
+                  <a class="link instagram-link" href=""></a>
+                </li>
+                <li class="social-link icon-link">
+                  <a class="link twitter-link" href=""></a>
+                </li>
+                <li class="social-link icon-link">
+                  <a class="link facebook-link" href=""></a>
+                </li>
+                <li class="social-link icon-link">
+                  <a class="link linkedin-link" href=""></a>
+                </li>
+              </ul>
+            </div>
           </div>
           <form class="input-footer link-footer description">
             <h3 class="title">Подпишитесь на рассылку</h3>
@@ -479,5 +519,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobil-menu.js"></script>
   </body>
 </html>

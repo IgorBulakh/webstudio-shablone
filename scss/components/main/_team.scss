@@ -1,48 +1,48 @@
 .container-team {
-  @extend %container;
-  & .list {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-
-.container-team {
   & .title {
     margin-top: 30px;
     font-weight: 500;
     font-size: 16px;
-    /* identical to box height */
+
     text-align: center;
     text-transform: capitalize;
   }
 }
 
-.container-team {
-  & .description-list {
+.description-list {
+  .container-team & {
+    background: $prymary-bg-color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+  }
+  & .portret {
+    width: 100%;
+  }
+
+  &:not(:last-child) {
+    @media screen and (max-width: 767px) {
+      margin-bottom: 30px;
+    }
   }
 }
 
 .profeshion {
   margin-top: 0;
-  // margin-bottom: 16px;
+
   font-weight: 400;
   font-size: 16px;
-  // identical to box height;
+
   text-align: center;
 }
 
 .container-team {
   & .site-nav {
+    display: flex;
     justify-content: center;
+    padding-bottom: 24px;
   }
 }
-
-// .portret {
-//   margin-bottom: 30px;
-// }
 
 .social-link {
   & .link {
@@ -72,7 +72,3 @@
     fill: $white-txt-color;
   }
 }
-
-// .social-link .link:hover .link-icon {
-//   fill: var(--white-txt-color);
-// }

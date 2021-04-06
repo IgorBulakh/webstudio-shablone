@@ -1,0 +1,7 @@
+.main {
+  & .section {
+    &:nth-child(odd) {
+      background: $team-bg-color;
+    }
+  }
+}
