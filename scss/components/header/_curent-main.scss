@@ -1,0 +1,6 @@
+.curent {
+  &::after {
+    @extend %curent;
+    width: 100%;
+  }
+}

@@ -3,9 +3,15 @@
   display: block;
   content: "";
   text-align: center;
-  margin-top: 37px;
   height: 4px;
 
   border-radius: 2px;
   background: $btn-bg-color;
+
+  @media screen and(min-width: $tablet) {
+    margin-top: 32px;
+  }
+  @media screen and(min-width: $desctop) {
+    margin-top: 28px;
+  }
 }

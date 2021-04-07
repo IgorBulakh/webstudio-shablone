@@ -274,11 +274,7 @@ body {
     margin-bottom: 0;
   }
   .menu-burger .nav-contact.list .contact-list:not(:last-child) {
-<<<<<<< Updated upstream
     margin-right: 30px;
-=======
-    margin-right: 3 0px;
->>>>>>> Stashed changes
   }
 }
 
@@ -338,6 +334,10 @@ body {
 
 .site-nav .link:hover, .site-nav .link:focus {
   color: #2196f3;
+}
+
+.site-nav .curent {
+  position: relative;
 }
 
 .container-portfolio {
