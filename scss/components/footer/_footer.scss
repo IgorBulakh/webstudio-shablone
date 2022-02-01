@@ -100,26 +100,24 @@
     width: 44px;
     height: 44px;
     background: $sochial-link-footer;
-
     background-repeat: no-repeat;
     background-position: center;
-
     border-radius: 50%;
   }
 }
 
 .instagram-link::before {
-  background-image: url(../../../img/instagram.svg);
+  background-image: url("../../../img/instagram.svg");
 }
 .twitter-link::before {
-  background-image: url(../../../img/twitter.svg);
+  background-image: url("../../../img/twitter.svg");
 }
 
 .facebook-link::before {
-  background-image: url(../../../img/facebook.svg);
+  background-image: url("../../../img/facebook.svg");
 }
 .linkedin-link::before {
-  background-image: url(../../../img/linkedin.svg);
+  background-image: url("../../../img/linkedin.svg");
 }
 
 .fild-mail {
@@ -162,7 +160,7 @@
       display: inline-flex;
       width: 24px;
       height: 24px;
-      background-image: url(../../../img/btn-icon.svg);
+      background-image: url("../../../img/btn-icon.svg");
       background-size: contain;
     }
   }

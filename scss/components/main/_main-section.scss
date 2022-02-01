@@ -77,16 +77,16 @@
     border-radius: 4px;
   }
   &:nth-child(1)::before {
-    background-image: url(../../../img/antenna1.svg);
+    background-image: url("../../../img/antenna1.svg");
   }
   &:nth-child(2)::before {
-    background-image: url(../../../img/clock1.svg);
+    background-image: url("../../../img/clock1.svg");
   }
   &:nth-child(3)::before {
-    background-image: url(../../../img/diagram1.svg);
+    background-image: url("../../../img/diagram1.svg");
   }
   &:nth-child(4)::before {
-    background-image: url(../../../img/astronaut1.svg);
+    background-image: url("../../../img/astronaut1.svg");
   }
 
   @media screen and (min-width: $tablet) {

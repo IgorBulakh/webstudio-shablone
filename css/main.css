@@ -470,19 +470,19 @@ body {
 }
 
 .description-list:nth-child(1)::before {
-  background-image: url(../../../img/antenna1.svg);
+  background-image: url("../../../img/antenna1.svg");
 }
 
 .description-list:nth-child(2)::before {
-  background-image: url(../../../img/clock1.svg);
+  background-image: url("../../../img/clock1.svg");
 }
 
 .description-list:nth-child(3)::before {
-  background-image: url(../../../img/diagram1.svg);
+  background-image: url("../../../img/diagram1.svg");
 }
 
 .description-list:nth-child(4)::before {
-  background-image: url(../../../img/astronaut1.svg);
+  background-image: url("../../../img/astronaut1.svg");
 }
 
 @media screen and (min-width: 768px) {
@@ -804,19 +804,19 @@ body {
 }
 
 .instagram-link::before {
-  background-image: url(../../../img/instagram.svg);
+  background-image: url("../../../img/instagram.svg");
 }
 
 .twitter-link::before {
-  background-image: url(../../../img/twitter.svg);
+  background-image: url("../../../img/twitter.svg");
 }
 
 .facebook-link::before {
-  background-image: url(../../../img/facebook.svg);
+  background-image: url("../../../img/facebook.svg");
 }
 
 .linkedin-link::before {
-  background-image: url(../../../img/linkedin.svg);
+  background-image: url("../../../img/linkedin.svg");
 }
 
 .fild-mail {
@@ -862,7 +862,7 @@ body {
   display: inline-flex;
   width: 24px;
   height: 24px;
-  background-image: url(../../../img/btn-icon.svg);
+  background-image: url("../../../img/btn-icon.svg");
   background-size: contain;
 }
 
@@ -940,7 +940,7 @@ body {
   position: absolute;
   width: 30px;
   height: 30px;
-  background-image: url(../img/x-mark.svg);
+  background-image: url("../img/x-mark.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1066,7 +1066,7 @@ body {
 .check-label:checked + .check-icon {
   border-color: #2196f3;
   background-color: #2196f3;
-  background-image: url(../img/check.svg);
+  background-image: url("../img/check.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
